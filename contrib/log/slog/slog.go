@@ -4,7 +4,7 @@
 // Copyright 2016 Datadog, Inc.
 
 // Package slog provides functions to correlate logs and traces using log/slog package (https://pkg.go.dev/log/slog).
-package slog // import "gopkg.in/DataDog/dd-trace-go.v1/contrib/log/slog"
+package slog // import "github.com/0angelic0/dd-trace-go/contrib/log/slog"
 
 import (
 	"context"
@@ -12,9 +12,9 @@ import (
 	"log/slog"
 	"strconv"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	"github.com/0angelic0/dd-trace-go/ddtrace/ext"
+	"github.com/0angelic0/dd-trace-go/ddtrace/tracer"
+	"github.com/0angelic0/dd-trace-go/internal/telemetry"
 )
 
 const componentName = "log/slog"

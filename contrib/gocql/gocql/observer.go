@@ -11,8 +11,8 @@ import (
 
 	"github.com/gocql/gocql"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	"github.com/0angelic0/dd-trace-go/ddtrace/ext"
+	"github.com/0angelic0/dd-trace-go/ddtrace/tracer"
 )
 
 // CreateTracedSession returns a new session augmented with tracing.

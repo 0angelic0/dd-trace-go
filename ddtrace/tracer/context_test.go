@@ -11,9 +11,9 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	traceinternal "gopkg.in/DataDog/dd-trace-go.v1/ddtrace/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
+	"github.com/0angelic0/dd-trace-go/ddtrace"
+	traceinternal "github.com/0angelic0/dd-trace-go/ddtrace/internal"
+	"github.com/0angelic0/dd-trace-go/internal"
 
 	"github.com/stretchr/testify/assert"
 )

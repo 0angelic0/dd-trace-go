@@ -13,12 +13,12 @@ import (
 	"sync"
 	"syscall"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/civisibility/constants"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/civisibility/utils"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/0angelic0/dd-trace-go/ddtrace/mocktracer"
+	"github.com/0angelic0/dd-trace-go/ddtrace/tracer"
+	"github.com/0angelic0/dd-trace-go/internal"
+	"github.com/0angelic0/dd-trace-go/internal/civisibility/constants"
+	"github.com/0angelic0/dd-trace-go/internal/civisibility/utils"
+	"github.com/0angelic0/dd-trace-go/internal/log"
 )
 
 // ciVisibilityCloseAction defines an action to be executed when CI visibility is closing.

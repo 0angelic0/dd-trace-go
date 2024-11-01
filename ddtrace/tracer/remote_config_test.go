@@ -8,14 +8,14 @@ package tracer
 import (
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/internal"
+	"github.com/0angelic0/dd-trace-go/ddtrace/internal"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/remoteconfig"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/samplernames"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry/telemetrytest"
+	"github.com/0angelic0/dd-trace-go/ddtrace/ext"
+	"github.com/0angelic0/dd-trace-go/internal/globalconfig"
+	"github.com/0angelic0/dd-trace-go/internal/remoteconfig"
+	"github.com/0angelic0/dd-trace-go/internal/samplernames"
+	"github.com/0angelic0/dd-trace-go/internal/telemetry"
+	"github.com/0angelic0/dd-trace-go/internal/telemetry/telemetrytest"
 
 	"github.com/DataDog/datadog-agent/pkg/remoteconfig/state"
 	"github.com/stretchr/testify/assert"

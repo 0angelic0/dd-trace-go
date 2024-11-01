@@ -12,9 +12,9 @@ package graphqlsec
 import (
 	"context"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/trace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/waf"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/dyngo"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/emitter/trace"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/emitter/waf"
 )
 
 type (

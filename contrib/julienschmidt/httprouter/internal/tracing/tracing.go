@@ -9,10 +9,10 @@ import (
 	"net/http"
 	"strings"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/httptrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/options"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	"github.com/0angelic0/dd-trace-go/contrib/internal/httptrace"
+	"github.com/0angelic0/dd-trace-go/contrib/internal/options"
+	"github.com/0angelic0/dd-trace-go/ddtrace/tracer"
+	"github.com/0angelic0/dd-trace-go/internal/telemetry"
 )
 
 const componentName = "julienschmidt/httprouter"

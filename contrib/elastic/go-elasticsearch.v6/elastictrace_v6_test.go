@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
+	"github.com/0angelic0/dd-trace-go/ddtrace/ext"
+	"github.com/0angelic0/dd-trace-go/ddtrace/mocktracer"
+	"github.com/0angelic0/dd-trace-go/internal/globalconfig"
 
 	elasticsearch6 "github.com/elastic/go-elasticsearch/v6"
 	esapi6 "github.com/elastic/go-elasticsearch/v6/esapi"

@@ -11,9 +11,9 @@ import (
 	"slices"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/civisibility/constants"
+	"github.com/0angelic0/dd-trace-go/ddtrace/ext"
+	"github.com/0angelic0/dd-trace-go/ddtrace/mocktracer"
+	"github.com/0angelic0/dd-trace-go/internal/civisibility/constants"
 
 	"github.com/stretchr/testify/assert"
 )
@@ -183,7 +183,7 @@ func assertTest(t *testing.T) {
 		// Assert Module
 		if span.Tag(ext.SpanType) == constants.SpanTypeTestModule {
 			assert.Subset(spanTags, map[string]interface{}{
-				constants.TestModule:    "gopkg.in/DataDog/dd-trace-go.v1/internal/civisibility/integrations/gotesting",
+				constants.TestModule:    "github.com/0angelic0/dd-trace-go/internal/civisibility/integrations/gotesting",
 				constants.TestFramework: "golang.org/pkg/testing",
 			})
 			assert.Contains(spanTags, constants.TestSessionIDTag)
@@ -196,7 +196,7 @@ func assertTest(t *testing.T) {
 		// Assert Suite
 		if span.Tag(ext.SpanType) == constants.SpanTypeTestSuite {
 			assert.Subset(spanTags, map[string]interface{}{
-				constants.TestModule:    "gopkg.in/DataDog/dd-trace-go.v1/internal/civisibility/integrations/gotesting",
+				constants.TestModule:    "github.com/0angelic0/dd-trace-go/internal/civisibility/integrations/gotesting",
 				constants.TestFramework: "golang.org/pkg/testing",
 			})
 			assert.Contains(spanTags, constants.TestSessionIDTag)
@@ -211,7 +211,7 @@ func assertTest(t *testing.T) {
 		// Assert Test
 		if span.Tag(ext.SpanType) == constants.SpanTypeTest {
 			assert.Subset(spanTags, map[string]interface{}{
-				constants.TestModule:    "gopkg.in/DataDog/dd-trace-go.v1/internal/civisibility/integrations/gotesting",
+				constants.TestModule:    "github.com/0angelic0/dd-trace-go/internal/civisibility/integrations/gotesting",
 				constants.TestFramework: "golang.org/pkg/testing",
 				constants.TestSuite:     "testing_test.go",
 				constants.TestName:      t.Name(),

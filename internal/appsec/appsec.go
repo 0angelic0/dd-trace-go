@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"sync"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/config"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/listener"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/config"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/dyngo"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/listener"
+	"github.com/0angelic0/dd-trace-go/internal/log"
 
 	appsecLog "github.com/DataDog/appsec-internal-go/log"
 	waf "github.com/DataDog/go-libddwaf/v3"

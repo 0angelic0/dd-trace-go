@@ -6,9 +6,9 @@
 package actions
 
 import (
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/stacktrace"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/dyngo"
+	"github.com/0angelic0/dd-trace-go/internal/log"
+	"github.com/0angelic0/dd-trace-go/internal/stacktrace"
 )
 
 func init() {

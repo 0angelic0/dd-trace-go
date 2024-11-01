@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/version"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/dyngo"
+	"github.com/0angelic0/dd-trace-go/internal/version"
 )
 
 // Level specifies the logging level that the log package prints at.

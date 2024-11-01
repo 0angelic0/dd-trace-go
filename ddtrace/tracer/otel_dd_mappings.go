@@ -9,9 +9,9 @@ import (
 	"os"
 	"strings"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	"github.com/0angelic0/dd-trace-go/internal"
+	"github.com/0angelic0/dd-trace-go/internal/log"
+	"github.com/0angelic0/dd-trace-go/internal/telemetry"
 )
 
 // otelDDEnv contains env vars from both dd (DD) and ot (OTEL) that map to the same tracer configuration

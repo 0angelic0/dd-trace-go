@@ -6,10 +6,10 @@
 package trace
 
 import (
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/config"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/trace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/listener"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/config"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/dyngo"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/emitter/trace"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/listener"
 )
 
 // AppSec-specific span tags that are expected to

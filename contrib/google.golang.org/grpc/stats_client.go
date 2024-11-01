@@ -10,8 +10,8 @@ import (
 	"net"
 
 	"google.golang.org/grpc/stats"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	"github.com/0angelic0/dd-trace-go/ddtrace/ext"
+	"github.com/0angelic0/dd-trace-go/ddtrace/tracer"
 )
 
 // NewClientStatsHandler returns a gRPC client stats.Handler to trace RPC calls.

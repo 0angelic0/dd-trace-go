@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/gorilla/mux"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	"github.com/0angelic0/dd-trace-go/contrib/gorilla/mux"
+	"github.com/0angelic0/dd-trace-go/internal/telemetry"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -38,7 +38,7 @@ type contribPkg struct {
 	Dir        string
 }
 
-var TelemetryImport = "gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+var TelemetryImport = "github.com/0angelic0/dd-trace-go/internal/telemetry"
 
 func readPackage(t *testing.T, path string) contribPkg {
 	cmd := exec.Command("go", "list", "-json", path)

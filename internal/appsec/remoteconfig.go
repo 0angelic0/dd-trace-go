@@ -12,10 +12,10 @@ import (
 	"maps"
 	"os"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/config"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/orchestrion"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/remoteconfig"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/config"
+	"github.com/0angelic0/dd-trace-go/internal/log"
+	"github.com/0angelic0/dd-trace-go/internal/orchestrion"
+	"github.com/0angelic0/dd-trace-go/internal/remoteconfig"
 
 	internal "github.com/DataDog/appsec-internal-go/appsec"
 	rc "github.com/DataDog/datadog-agent/pkg/remoteconfig/state"

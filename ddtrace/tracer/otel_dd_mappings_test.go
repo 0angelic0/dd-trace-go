@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry/telemetrytest"
+	"github.com/0angelic0/dd-trace-go/internal/telemetry"
+	"github.com/0angelic0/dd-trace-go/internal/telemetry/telemetrytest"
 )
 
 func TestAssessSource(t *testing.T) {

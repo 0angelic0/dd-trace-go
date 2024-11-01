@@ -20,13 +20,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/namingschematest"
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/segmentio/kafka.go.v0/internal/tracing"
-	"gopkg.in/DataDog/dd-trace-go.v1/datastreams"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	"github.com/0angelic0/dd-trace-go/contrib/internal/namingschematest"
+	"github.com/0angelic0/dd-trace-go/contrib/segmentio/kafka.go.v0/internal/tracing"
+	"github.com/0angelic0/dd-trace-go/datastreams"
+	"github.com/0angelic0/dd-trace-go/ddtrace"
+	"github.com/0angelic0/dd-trace-go/ddtrace/ext"
+	"github.com/0angelic0/dd-trace-go/ddtrace/mocktracer"
+	"github.com/0angelic0/dd-trace-go/ddtrace/tracer"
 )
 
 const (

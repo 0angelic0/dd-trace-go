@@ -11,9 +11,9 @@ import (
 	"math"
 	"sync"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/samplernames"
+	"github.com/0angelic0/dd-trace-go/ddtrace"
+	"github.com/0angelic0/dd-trace-go/ddtrace/ext"
+	"github.com/0angelic0/dd-trace-go/internal/samplernames"
 )
 
 // Sampler is the generic interface of any sampler. It must be safe for concurrent use.

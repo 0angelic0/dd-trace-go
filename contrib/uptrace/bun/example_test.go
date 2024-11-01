@@ -11,7 +11,7 @@ import (
 
 	"github.com/uptrace/bun"
 	"github.com/uptrace/bun/dialect/sqlitedialect"
-	buntrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/uptrace/bun"
+	buntrace "github.com/0angelic0/dd-trace-go/contrib/uptrace/bun"
 	_ "modernc.org/sqlite"
 )
 

@@ -15,9 +15,9 @@ import (
 	"strings"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/civisibility/integrations"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/civisibility/utils"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/0angelic0/dd-trace-go/internal/civisibility/integrations"
+	"github.com/0angelic0/dd-trace-go/internal/civisibility/utils"
+	"github.com/0angelic0/dd-trace-go/internal/log"
 )
 
 type (

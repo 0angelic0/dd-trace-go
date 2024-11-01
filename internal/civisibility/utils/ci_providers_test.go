@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/civisibility/constants"
+	"github.com/0angelic0/dd-trace-go/internal/civisibility/constants"
 )
 
 func setEnvs(t *testing.T, env map[string]string) {

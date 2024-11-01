@@ -23,10 +23,10 @@ import (
 	"sync"
 	"time"
 
-	sqlinternal "gopkg.in/DataDog/dd-trace-go.v1/contrib/database/sql/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	sqlinternal "github.com/0angelic0/dd-trace-go/contrib/database/sql/internal"
+	"github.com/0angelic0/dd-trace-go/ddtrace/tracer"
+	"github.com/0angelic0/dd-trace-go/internal/log"
+	"github.com/0angelic0/dd-trace-go/internal/telemetry"
 )
 
 const componentName = "database/sql"

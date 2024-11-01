@@ -7,19 +7,19 @@
 //
 // Deprecated: github.com/Shopify/sarama is no longer maintained. Please migrate to github.com/IBM/sarama
 // and use the corresponding instrumentation.
-package sarama // import "gopkg.in/DataDog/dd-trace-go.v1/contrib/Shopify/sarama"
+package sarama // import "github.com/0angelic0/dd-trace-go/contrib/Shopify/sarama"
 
 import (
 	"context"
 	"math"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/datastreams"
-	"gopkg.in/DataDog/dd-trace-go.v1/datastreams/options"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	"github.com/0angelic0/dd-trace-go/datastreams"
+	"github.com/0angelic0/dd-trace-go/datastreams/options"
+	"github.com/0angelic0/dd-trace-go/ddtrace"
+	"github.com/0angelic0/dd-trace-go/ddtrace/ext"
+	"github.com/0angelic0/dd-trace-go/ddtrace/tracer"
+	"github.com/0angelic0/dd-trace-go/internal/log"
+	"github.com/0angelic0/dd-trace-go/internal/telemetry"
 
 	"github.com/Shopify/sarama"
 )

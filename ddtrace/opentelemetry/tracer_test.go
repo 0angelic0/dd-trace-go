@@ -12,12 +12,12 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry/telemetrytest"
+	"github.com/0angelic0/dd-trace-go/ddtrace"
+	"github.com/0angelic0/dd-trace-go/ddtrace/internal"
+	"github.com/0angelic0/dd-trace-go/ddtrace/tracer"
+	"github.com/0angelic0/dd-trace-go/internal/log"
+	"github.com/0angelic0/dd-trace-go/internal/telemetry"
+	"github.com/0angelic0/dd-trace-go/internal/telemetry/telemetrytest"
 
 	"github.com/stretchr/testify/assert"
 	"go.opentelemetry.io/otel"

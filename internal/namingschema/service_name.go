@@ -5,7 +5,7 @@
 
 package namingschema
 
-import "gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
+import "github.com/0angelic0/dd-trace-go/internal/globalconfig"
 
 func ServiceName(fallback string) string {
 	switch GetVersion() {

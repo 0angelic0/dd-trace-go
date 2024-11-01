@@ -11,7 +11,7 @@ import (
 
 	"cloud.google.com/go/pubsub"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/cloud.google.com/go/pubsub.v1/internal/tracing"
+	"github.com/0angelic0/dd-trace-go/contrib/cloud.google.com/go/pubsub.v1/internal/tracing"
 )
 
 // Publish publishes a message on the specified topic and returns a PublishResult.

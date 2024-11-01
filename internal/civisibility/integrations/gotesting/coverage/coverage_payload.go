@@ -12,7 +12,7 @@ import (
 	"sync/atomic"
 
 	"github.com/tinylib/msgp/msgp"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/0angelic0/dd-trace-go/internal/log"
 )
 
 // coveragePayload is a slim copy of the payload struct from the tracer package.

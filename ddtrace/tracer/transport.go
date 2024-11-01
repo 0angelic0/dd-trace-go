@@ -19,9 +19,9 @@ import (
 
 	pb "github.com/DataDog/datadog-agent/pkg/proto/pbgo/trace"
 
-	traceinternal "gopkg.in/DataDog/dd-trace-go.v1/ddtrace/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/version"
+	traceinternal "github.com/0angelic0/dd-trace-go/ddtrace/internal"
+	"github.com/0angelic0/dd-trace-go/internal"
+	"github.com/0angelic0/dd-trace-go/internal/version"
 
 	"github.com/tinylib/msgp/msgp"
 )

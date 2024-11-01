@@ -10,9 +10,9 @@ import (
 	"log"
 	"net/http"
 
-	httptrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/julienschmidt/httprouter"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	httptrace "github.com/0angelic0/dd-trace-go/contrib/julienschmidt/httprouter"
+	"github.com/0angelic0/dd-trace-go/ddtrace/ext"
+	"github.com/0angelic0/dd-trace-go/ddtrace/tracer"
 
 	"github.com/julienschmidt/httprouter"
 )

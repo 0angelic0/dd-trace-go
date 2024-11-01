@@ -11,8 +11,8 @@ import (
 	"strconv"
 
 	"github.com/tinylib/msgp/msgp"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/civisibility/constants"
+	"github.com/0angelic0/dd-trace-go/ddtrace"
+	"github.com/0angelic0/dd-trace-go/internal/civisibility/constants"
 )
 
 type (

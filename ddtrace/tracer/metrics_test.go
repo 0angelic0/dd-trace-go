@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	globalinternal "gopkg.in/DataDog/dd-trace-go.v1/internal"
+	globalinternal "github.com/0angelic0/dd-trace-go/internal"
 
 	"github.com/stretchr/testify/assert"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/statsdtest"
+	"github.com/0angelic0/dd-trace-go/internal/statsdtest"
 )
 
 func withStatsdClient(s globalinternal.StatsdClient) StartOption {

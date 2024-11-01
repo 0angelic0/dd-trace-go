@@ -3,7 +3,7 @@
 // This product includes software developed at Datadog (https://www.datadoghq.com/).
 // Copyright 2016 Datadog, Inc.
 
-package kafka // import "gopkg.in/DataDog/dd-trace-go.v1/contrib/segmentio/kafka.go.v0"
+package kafka // import "github.com/0angelic0/dd-trace-go/contrib/segmentio/kafka.go.v0"
 
 import (
 	"context"
@@ -11,9 +11,9 @@ import (
 
 	"github.com/segmentio/kafka-go"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/segmentio/kafka.go.v0/internal/tracing"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/0angelic0/dd-trace-go/contrib/segmentio/kafka.go.v0/internal/tracing"
+	"github.com/0angelic0/dd-trace-go/ddtrace"
+	"github.com/0angelic0/dd-trace-go/internal/log"
 )
 
 // A Reader wraps a kafka.Reader.

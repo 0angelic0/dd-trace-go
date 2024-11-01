@@ -16,7 +16,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/tinylib/msgp/msgp"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/civisibility/constants"
+	"github.com/0angelic0/dd-trace-go/internal/civisibility/constants"
 )
 
 func TestCiVisibilityTransport(t *testing.T) {

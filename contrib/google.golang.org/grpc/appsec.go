@@ -15,9 +15,9 @@ import (
 	"google.golang.org/grpc/peer"
 	"google.golang.org/grpc/status"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/grpcsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/waf/actions"
+	"github.com/0angelic0/dd-trace-go/ddtrace"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/emitter/grpcsec"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/emitter/waf/actions"
 )
 
 func applyAction(blockAtomic *atomic.Pointer[actions.BlockGRPC], err *error) bool {

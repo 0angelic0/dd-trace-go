@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/0angelic0/dd-trace-go/internal/log"
 )
 
 // Constants defining the payload size limits for agentless mode.

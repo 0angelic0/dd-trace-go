@@ -13,9 +13,9 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/appsec/events"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/0angelic0/dd-trace-go/appsec/events"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/dyngo"
+	"github.com/0angelic0/dd-trace-go/internal/log"
 )
 
 // blockedTemplateJSON is the default JSON template used to write responses for blocked requests

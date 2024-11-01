@@ -10,11 +10,11 @@ import (
 	"sync/atomic"
 
 	"github.com/tinylib/msgp/msgp"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/civisibility/constants"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/civisibility/utils"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/version"
+	"github.com/0angelic0/dd-trace-go/internal/civisibility/constants"
+	"github.com/0angelic0/dd-trace-go/internal/civisibility/utils"
+	"github.com/0angelic0/dd-trace-go/internal/globalconfig"
+	"github.com/0angelic0/dd-trace-go/internal/log"
+	"github.com/0angelic0/dd-trace-go/internal/version"
 )
 
 // ciVisibilityPayload represents a payload specifically designed for CI Visibility events.

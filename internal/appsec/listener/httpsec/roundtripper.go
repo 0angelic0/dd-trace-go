@@ -6,12 +6,12 @@
 package httpsec
 
 import (
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/config"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/httpsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/waf"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/waf/addresses"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/listener"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/config"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/dyngo"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/emitter/httpsec"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/emitter/waf"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/emitter/waf/addresses"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/listener"
 )
 
 type SSRFProtectionFeature struct{}

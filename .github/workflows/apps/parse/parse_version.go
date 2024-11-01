@@ -8,7 +8,7 @@ package main
 import (
 	"fmt"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/version"
+	"github.com/0angelic0/dd-trace-go/internal/version"
 )
 
 func ghOutput(varName, v string) string {

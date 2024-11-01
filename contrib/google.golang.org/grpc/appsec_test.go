@@ -13,9 +13,9 @@ import (
 	"net"
 	"testing"
 
-	pappsec "gopkg.in/DataDog/dd-trace-go.v1/appsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec"
+	pappsec "github.com/0angelic0/dd-trace-go/appsec"
+	"github.com/0angelic0/dd-trace-go/ddtrace/mocktracer"
+	"github.com/0angelic0/dd-trace-go/internal/appsec"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

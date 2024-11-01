@@ -6,9 +6,9 @@
 package httprouter
 
 import (
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/julienschmidt/httprouter/internal/tracing"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
+	"github.com/0angelic0/dd-trace-go/contrib/julienschmidt/httprouter/internal/tracing"
+	"github.com/0angelic0/dd-trace-go/ddtrace"
+	"github.com/0angelic0/dd-trace-go/internal"
 )
 
 const defaultServiceName = "http.router"
