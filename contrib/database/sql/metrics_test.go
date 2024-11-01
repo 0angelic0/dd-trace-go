@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
+	"github.com/0angelic0/dd-trace-go/internal/globalconfig"
 )
 
 func (cfg *config) applyTags() {

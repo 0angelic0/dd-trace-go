@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/statsdtest"
+	"github.com/0angelic0/dd-trace-go/ddtrace/mocktracer"
+	"github.com/0angelic0/dd-trace-go/internal"
+	"github.com/0angelic0/dd-trace-go/internal/statsdtest"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -13,11 +13,11 @@ import (
 	waf "github.com/DataDog/go-libddwaf/v3"
 	wafErrors "github.com/DataDog/go-libddwaf/v3/errors"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/waf/actions"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/emitter/waf/actions"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/appsec/events"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/0angelic0/dd-trace-go/appsec/events"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/dyngo"
+	"github.com/0angelic0/dd-trace-go/internal/log"
 )
 
 // Run runs the WAF with the given address data and sends the results to the event receiver

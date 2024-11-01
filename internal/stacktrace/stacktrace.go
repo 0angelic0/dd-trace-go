@@ -14,7 +14,7 @@ import (
 	"runtime"
 	"strings"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/0angelic0/dd-trace-go/internal/log"
 
 	"github.com/eapache/queue/v2"
 	"github.com/hashicorp/go-secure-stdlib/parseutil"
@@ -27,7 +27,7 @@ var (
 
 	// internalPackagesPrefixes is the list of prefixes for internal packages that should be hidden in the stack trace
 	internalSymbolPrefixes = []string{
-		"gopkg.in/DataDog/dd-trace-go.v1",
+		"github.com/0angelic0/dd-trace-go",
 		"github.com/DataDog/dd-trace-go",
 		"github.com/DataDog/go-libddwaf",
 		"github.com/DataDog/datadog-agent",
@@ -100,8 +100,8 @@ type symbol struct {
 var symbolRegex = regexp.MustCompile(`^(([^(]+/)?([^(/.]+)?)(\.\(([^/)]+)\))?\.([^/()]+)$`)
 
 // parseSymbol parses a symbol name into its package, receiver and function
-// ex: gopkg.in/DataDog/dd-trace-go.v1/internal/stacktrace.(*Event).NewException
-// -> package: gopkg.in/DataDog/dd-trace-go.v1/internal/stacktrace
+// ex: github.com/0angelic0/dd-trace-go/internal/stacktrace.(*Event).NewException
+// -> package: github.com/0angelic0/dd-trace-go/internal/stacktrace
 // -> receiver: *Event
 // -> function: NewException
 func parseSymbol(name string) symbol {

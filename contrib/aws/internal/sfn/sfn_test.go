@@ -13,8 +13,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/sfn"
 	"github.com/aws/smithy-go/middleware"
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	"github.com/0angelic0/dd-trace-go/ddtrace/mocktracer"
+	"github.com/0angelic0/dd-trace-go/ddtrace/tracer"
 )
 
 func TestEnrichOperation_StartExecution(t *testing.T) {

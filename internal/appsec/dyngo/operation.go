@@ -25,7 +25,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/orchestrion"
+	"github.com/0angelic0/dd-trace-go/internal/orchestrion"
 )
 
 // LogError is the function used to log errors in the dyngo package.

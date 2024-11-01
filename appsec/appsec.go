@@ -15,12 +15,12 @@ import (
 	"context"
 	"sync"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/httpsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/usersec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/0angelic0/dd-trace-go/ddtrace/ext"
+	"github.com/0angelic0/dd-trace-go/ddtrace/tracer"
+	"github.com/0angelic0/dd-trace-go/internal/appsec"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/emitter/httpsec"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/emitter/usersec"
+	"github.com/0angelic0/dd-trace-go/internal/log"
 )
 
 var appsecDisabledLog sync.Once

@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"github.com/tinylib/msgp/msgp"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/0angelic0/dd-trace-go/internal/log"
 )
 
 // Constants for common strings

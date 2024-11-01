@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/httpmem"
+	"github.com/0angelic0/dd-trace-go/internal/httpmem"
 )
 
 func TestServerAndClient(t *testing.T) {

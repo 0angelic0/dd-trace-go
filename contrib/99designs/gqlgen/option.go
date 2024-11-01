@@ -8,8 +8,8 @@ package gqlgen
 import (
 	"math"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/namingschema"
+	"github.com/0angelic0/dd-trace-go/internal/globalconfig"
+	"github.com/0angelic0/dd-trace-go/internal/namingschema"
 )
 
 const defaultServiceName = "graphql"

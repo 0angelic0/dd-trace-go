@@ -13,12 +13,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/hostname/azure"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/hostname/ec2"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/hostname/ecs"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/hostname/gce"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/hostname/validate"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/0angelic0/dd-trace-go/internal/hostname/azure"
+	"github.com/0angelic0/dd-trace-go/internal/hostname/ec2"
+	"github.com/0angelic0/dd-trace-go/internal/hostname/ecs"
+	"github.com/0angelic0/dd-trace-go/internal/hostname/gce"
+	"github.com/0angelic0/dd-trace-go/internal/hostname/validate"
+	"github.com/0angelic0/dd-trace-go/internal/log"
 )
 
 // For testing purposes

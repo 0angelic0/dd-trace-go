@@ -13,8 +13,8 @@ import (
 	"sort"
 	"strings"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/civisibility/constants"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/0angelic0/dd-trace-go/internal/civisibility/constants"
+	"github.com/0angelic0/dd-trace-go/internal/log"
 )
 
 // providerType defines a function type that returns a map of string key-value pairs.

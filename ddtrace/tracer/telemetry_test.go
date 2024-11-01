@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry/telemetrytest"
-	"gopkg.in/DataDog/dd-trace-go.v1/profiler"
+	"github.com/0angelic0/dd-trace-go/internal/globalconfig"
+	"github.com/0angelic0/dd-trace-go/internal/telemetry"
+	"github.com/0angelic0/dd-trace-go/internal/telemetry/telemetrytest"
+	"github.com/0angelic0/dd-trace-go/profiler"
 
 	"github.com/stretchr/testify/assert"
 )

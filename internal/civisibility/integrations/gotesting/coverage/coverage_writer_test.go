@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/civisibility/utils/net"
+	"github.com/0angelic0/dd-trace-go/internal/civisibility/utils/net"
 )
 
 func TestNewCoverageWriter(t *testing.T) {

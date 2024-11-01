@@ -8,7 +8,7 @@ package kafka
 import (
 	"github.com/confluentinc/confluent-kafka-go/kafka"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/confluentinc/confluent-kafka-go/internal/tracing"
+	"github.com/0angelic0/dd-trace-go/contrib/confluentinc/confluent-kafka-go/internal/tracing"
 )
 
 // A MessageCarrier injects and extracts traces from a kafka.Message.

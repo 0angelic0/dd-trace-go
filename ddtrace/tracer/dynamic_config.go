@@ -8,7 +8,7 @@ package tracer
 import (
 	"sync"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	"github.com/0angelic0/dd-trace-go/internal/telemetry"
 )
 
 // dynamicConfig is a thread-safe generic data structure to represent configuration fields.

@@ -27,7 +27,7 @@ import (
 	"github.com/google/pprof/profile"
 	exptrace "golang.org/x/exp/trace"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	"github.com/0angelic0/dd-trace-go/ddtrace/tracer"
 )
 
 type discardLogger struct{}

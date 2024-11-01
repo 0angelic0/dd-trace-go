@@ -18,9 +18,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	internallog "gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/0angelic0/dd-trace-go/ddtrace/ext"
+	"github.com/0angelic0/dd-trace-go/ddtrace/tracer"
+	internallog "github.com/0angelic0/dd-trace-go/internal/log"
 )
 
 func assertLogEntry(t *testing.T, rawEntry, wantMsg, wantLevel string, span tracer.Span, assertExtra func(t *testing.T, entry map[string]interface{})) {

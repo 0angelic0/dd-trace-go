@@ -6,7 +6,7 @@
 package tracing
 
 import (
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
+	"github.com/0angelic0/dd-trace-go/ddtrace"
 )
 
 type Message interface {

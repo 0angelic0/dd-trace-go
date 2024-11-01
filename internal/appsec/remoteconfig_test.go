@@ -14,9 +14,9 @@ import (
 	"strings"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/config"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/waf/addresses"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/remoteconfig"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/config"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/emitter/waf/addresses"
+	"github.com/0angelic0/dd-trace-go/internal/remoteconfig"
 
 	internal "github.com/DataDog/appsec-internal-go/appsec"
 	rc "github.com/DataDog/datadog-agent/pkg/remoteconfig/state"

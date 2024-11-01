@@ -6,7 +6,7 @@
 package bun
 
 import (
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
+	"github.com/0angelic0/dd-trace-go/internal/globalconfig"
 )
 
 type config struct {

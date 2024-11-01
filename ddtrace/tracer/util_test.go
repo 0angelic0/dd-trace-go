@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/samplernames"
+	"github.com/0angelic0/dd-trace-go/internal/samplernames"
 )
 
 func TestToFloat64(t *testing.T) {

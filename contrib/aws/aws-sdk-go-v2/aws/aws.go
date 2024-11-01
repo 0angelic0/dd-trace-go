@@ -12,13 +12,13 @@ import (
 	"strings"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/aws/internal/tags"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/namingschema"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	"github.com/0angelic0/dd-trace-go/contrib/aws/internal/tags"
+	"github.com/0angelic0/dd-trace-go/ddtrace"
+	"github.com/0angelic0/dd-trace-go/ddtrace/ext"
+	"github.com/0angelic0/dd-trace-go/ddtrace/tracer"
+	"github.com/0angelic0/dd-trace-go/internal/log"
+	"github.com/0angelic0/dd-trace-go/internal/namingschema"
+	"github.com/0angelic0/dd-trace-go/internal/telemetry"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
@@ -32,10 +32,10 @@ import (
 	"github.com/aws/smithy-go/middleware"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
 
-	eventBridgeTracer "gopkg.in/DataDog/dd-trace-go.v1/contrib/aws/internal/eventbridge"
-	sfnTracer "gopkg.in/DataDog/dd-trace-go.v1/contrib/aws/internal/sfn"
-	snsTracer "gopkg.in/DataDog/dd-trace-go.v1/contrib/aws/internal/sns"
-	sqsTracer "gopkg.in/DataDog/dd-trace-go.v1/contrib/aws/internal/sqs"
+	eventBridgeTracer "github.com/0angelic0/dd-trace-go/contrib/aws/internal/eventbridge"
+	sfnTracer "github.com/0angelic0/dd-trace-go/contrib/aws/internal/sfn"
+	snsTracer "github.com/0angelic0/dd-trace-go/contrib/aws/internal/sns"
+	sqsTracer "github.com/0angelic0/dd-trace-go/contrib/aws/internal/sqs"
 )
 
 const componentName = "aws/aws-sdk-go-v2/aws"

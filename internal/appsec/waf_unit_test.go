@@ -14,7 +14,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/waf/addresses"
+	"github.com/0angelic0/dd-trace-go/internal/appsec/emitter/waf/addresses"
 )
 
 func TestAPISecuritySchemaCollection(t *testing.T) {

@@ -16,10 +16,10 @@ import (
 	"time"
 	"unsafe"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/civisibility/constants"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/civisibility/integrations"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/civisibility/utils/net"
+	"github.com/0angelic0/dd-trace-go/internal"
+	"github.com/0angelic0/dd-trace-go/internal/civisibility/constants"
+	"github.com/0angelic0/dd-trace-go/internal/civisibility/integrations"
+	"github.com/0angelic0/dd-trace-go/internal/civisibility/utils/net"
 )
 
 type (

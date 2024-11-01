@@ -8,7 +8,7 @@ package kafka
 import (
 	"github.com/segmentio/kafka-go"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/segmentio/kafka.go.v0/internal/tracing"
+	"github.com/0angelic0/dd-trace-go/contrib/segmentio/kafka.go.v0/internal/tracing"
 )
 
 type wMessage struct {

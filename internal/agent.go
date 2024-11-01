@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"os"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/0angelic0/dd-trace-go/internal/log"
 )
 
 const (

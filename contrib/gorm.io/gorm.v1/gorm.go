@@ -9,11 +9,11 @@ package gorm
 import (
 	"math"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	"github.com/0angelic0/dd-trace-go/ddtrace"
+	"github.com/0angelic0/dd-trace-go/ddtrace/ext"
+	"github.com/0angelic0/dd-trace-go/ddtrace/tracer"
+	"github.com/0angelic0/dd-trace-go/internal/log"
+	"github.com/0angelic0/dd-trace-go/internal/telemetry"
 
 	"gorm.io/gorm"
 )
@@ -52,7 +52,7 @@ func (g tracePlugin) Initialize(db *gorm.DB) error {
 }
 
 // Open opens a new (traced) database connection. The used driver must be formerly registered
-// using (gopkg.in/DataDog/dd-trace-go.v1/contrib/database/sql).Register.
+// using (github.com/0angelic0/dd-trace-go/contrib/database/sql).Register.
 func Open(dialector gorm.Dialector, cfg *gorm.Config, opts ...Option) (*gorm.DB, error) {
 	var db *gorm.DB
 	var err error

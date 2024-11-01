@@ -9,7 +9,7 @@ import (
 	"net/textproto"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
+	"github.com/0angelic0/dd-trace-go/ddtrace/ext"
 
 	"github.com/stretchr/testify/assert"
 )

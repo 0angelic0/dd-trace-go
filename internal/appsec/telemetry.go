@@ -9,7 +9,7 @@ import (
 	"runtime"
 
 	waf "github.com/DataDog/go-libddwaf/v3"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	"github.com/0angelic0/dd-trace-go/internal/telemetry"
 )
 
 // cgoEnabled is true if cgo is enabled, false otherwise.

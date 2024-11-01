@@ -6,7 +6,7 @@
 package tracing
 
 import (
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	"github.com/0angelic0/dd-trace-go/ddtrace/tracer"
 )
 
 // A MessageCarrier implements TextMapReader/TextMapWriter for extracting/injecting traces on a kafka.Message

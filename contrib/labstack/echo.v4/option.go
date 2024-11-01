@@ -10,11 +10,11 @@ import (
 	"math"
 	"os"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/httptrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/namingschema"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/normalizer"
+	"github.com/0angelic0/dd-trace-go/contrib/internal/httptrace"
+	"github.com/0angelic0/dd-trace-go/internal"
+	"github.com/0angelic0/dd-trace-go/internal/globalconfig"
+	"github.com/0angelic0/dd-trace-go/internal/namingschema"
+	"github.com/0angelic0/dd-trace-go/internal/normalizer"
 
 	"github.com/labstack/echo/v4"
 )
