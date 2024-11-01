@@ -33,6 +33,7 @@ func WrapHandler(h fasthttp.RequestHandler, opts ...Option) fasthttp.RequestHand
 		fn(cfg)
 	}
 	log.Debug("contrib/valyala/fasthttp.v1: Configuring Middleware: cfg: %#v", cfg)
+	log.Info("0angelic0 version")
 	return func(fctx *fasthttp.RequestCtx) {
 		if cfg.ignoreRequest(fctx) {
 			h(fctx)
