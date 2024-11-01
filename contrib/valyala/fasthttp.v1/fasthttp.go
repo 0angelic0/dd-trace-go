@@ -26,6 +26,10 @@ func init() {
 	tracer.MarkIntegrationImported(componentName)
 }
 
+func Hello() {
+	fmt.Println("0angelic0 hello")
+}
+
 // WrapHandler wraps a fasthttp.RequestHandler with tracing middleware
 func WrapHandler(h fasthttp.RequestHandler, opts ...Option) fasthttp.RequestHandler {
 	cfg := newConfig()
